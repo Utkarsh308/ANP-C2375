@@ -5,6 +5,10 @@ public class Customer {
 	private String name;
 	public int age ;
 
+
+	public Customer(int i, String string) {
+		// TODO Auto-generated constructor stub
+	}
 	void constructor() {
 		}
 	void constructor(int Id, String Name, int Age){

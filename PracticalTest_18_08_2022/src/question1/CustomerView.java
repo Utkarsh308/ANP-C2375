@@ -1,12 +1,12 @@
 package question1;
-import question1.CustomerService;
 
 public class CustomerView {
 	
  public static void main (String[]args) {
-	  Customer obj1= Customer(1 , "utkarsh" ,22);
-	 CustomerService objCS = new CustomerService();
-	 boolean value = objCS.CheckEligibility(obj1);
+	 
+	  Customer customer1= new Customer (1, "utkarsh" 22);
+	 CustomerService cusSer1 = new CustomerService();
+	 boolean value = cusSer1.CheckEligibility(customer1);
 	 if(value == true) {
 		 System.out.println("You are eligible for voting");
 	 }
