@@ -6,7 +6,11 @@ public class Customer {
 	public int age ;
 
 
-	public Customer(int i, String string) {
+
+
+	
+	
+	Customer(int i, String string) {
 		// TODO Auto-generated constructor stub
 	}
 	void constructor() {

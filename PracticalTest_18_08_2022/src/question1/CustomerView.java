@@ -4,7 +4,7 @@ public class CustomerView {
 	
  public static void main (String[]args) {
 	 
-	  Customer customer1= new Customer (1, "utkarsh" 22);
+	  Customer customer1= new Customer (1, "utkarsh");
 	 CustomerService cusSer1 = new CustomerService();
 	 boolean value = cusSer1.CheckEligibility(customer1);
 	 if(value == true) {
