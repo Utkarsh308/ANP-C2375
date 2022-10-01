@@ -11,7 +11,7 @@ public void course(){System.out.println("GEC");}
 }  
 class Gondwana extends GEC{
 	public void course() {
-		System.out.println("Gondwana")
+		System.out.println("Gondwana");
 	}
 }
 class Main{
