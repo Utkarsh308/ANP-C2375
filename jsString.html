@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Javascript String </h1>
+<p id="a1"></p1>
+<script>
+let name = "My name Utkarsh Kharwade";
+let name1 = "Student at Anudip Foundation"
+document.getElementById("a1").innerHTML = name + "<br>";
+
+let len = name.length;
+document.write("length of string : " + len + "<br>");
+
+let slicee = name.slice(3,9);//start,end
+document.write("slice of string is :" + slicee + "<br>");
+
+let substrinng = name.substr(1,6);//start,length
+document.write("substring of string is :" + substrinng + "<br>");
+
+let replacee = name.replace("Utkarsh","Uddesh");
+document.write("Substring of string is :" + replacee + "<br>");
+
+let upper = name.toUpperCase();
+document.write("Uppercase of string is :" + upper + "<br>");
+
+let conc = name.concat(" ",name1);
+document.write("Concat of string is :" + conc + "<br>");
+
+</script>
+<body>
+</html>
